@@ -1,0 +1,103 @@
+[
+    {
+        "question": "What does AI stand for?",
+        "choices": {
+            "A": "Artificial Intelligence",
+            "B": "Automated Interface",
+            "C": "Autonomous Integration",
+            "D": "Algorithmic Insight"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Who is considered the father of AI?",
+        "choices": {
+            "A": "Alan Turing",
+            "B": "John McCarthy",
+            "C": "Elon Musk",
+            "D": "Isaac Asimov"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which of the following is a subfield of AI?",
+        "choices": {
+            "A": "Cybersecurity",
+            "B": "Quantum Computing",
+            "C": "Machine Learning",
+            "D": "Networking"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "What is the name of the AI system developed by IBM that won Jeopardy! in 2011?",
+        "choices": {
+            "A": "Deep Blue",
+            "B": "Siri",
+            "C": "Watson",
+            "D": "Alexa"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "Which of the following algorithms is commonly used in AI for pattern recognition?",
+        "choices": {
+            "A": "Linear Regression",
+            "B": "K-Nearest Neighbors",
+            "C": "Breadth-First Search",
+            "D": "SHA-256"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which AI concept refers to the ability of a machine to improve its performance based on past experiences?",
+        "choices": {
+            "A": "Reinforcement Learning",
+            "B": "Supervised Learning",
+            "C": "Unsupervised Learning",
+            "D": "Deep Learning"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "What type of AI is designed to perform specific tasks?",
+        "choices": {
+            "A": "General AI",
+            "B": "Narrow AI",
+            "C": "Strong AI",
+            "D": "Reactive AI"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which programming language is most popular for AI development?",
+        "choices": {
+            "A": "Python",
+            "B": "Java",
+            "C": "C++",
+            "D": "Ruby"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "What is the term used for the process of an AI agent exploring different possible actions to improve its learning?",
+        "choices": {
+            "A": "Exploration",
+            "B": "Optimization",
+            "C": "Backpropagation",
+            "D": "Heuristics"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Which company created the AI model ChatGPT?",
+        "choices": {
+            "A": "Microsoft",
+            "B": "OpenAI",
+            "C": "Google",
+            "D": "Amazon"
+        },
+        "correct_answer": "B"
+    }
+]
+
