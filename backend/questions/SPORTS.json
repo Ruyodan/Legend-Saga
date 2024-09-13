@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which country won the 2018 FIFA World Cup?",
+        "choices": {
+            "A": "France",
+            "B": "Brazil",
+            "C": "Germany",
+            "D": "Argentina"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Who is known as 'The King of Football'?",
+        "choices": {
+            "A": "Diego Maradona",
+            "B": "Cristiano Ronaldo",
+            "C": "Pele",
+            "D": "Lionel Messi"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "Which team has won the most UEFA Champions League titles?",
+        "choices": {
+            "A": "Barcelona",
+            "B": "Manchester United",
+            "C": "Bayern Munich",
+            "D": "Real Madrid"
+        },
+        "correct_answer": "D"
+    },
+    {
+        "question": "Who holds the record for the most goals scored in a single World Cup tournament?",
+        "choices": {
+            "A": "Miroslav Klose",
+            "B": "Ronaldo",
+            "C": "Just Fontaine",
+            "D": "Gerd Muller"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "Which soccer player has won the most Ballon d'Or awards?",
+        "choices": {
+            "A": "Cristiano Ronaldo",
+            "B": "Lionel Messi",
+            "C": "Michel Platini",
+            "D": "Johan Cruyff"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which country has won the most FIFA World Cup titles?",
+        "choices": {
+            "A": "Brazil",
+            "B": "Germany",
+            "C": "Italy",
+            "D": "Argentina"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "In which year did the Premier League start?",
+        "choices": {
+            "A": "1990",
+            "B": "1992",
+            "C": "1994",
+            "D": "1996"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which player scored the infamous 'Hand of God' goal?",
+        "choices": {
+            "A": "Zinedine Zidane",
+            "B": "Pele",
+            "C": "Diego Maradona",
+            "D": "George Best"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "Which country hosted the first FIFA World Cup in 1930?",
+        "choices": {
+            "A": "Uruguay",
+            "B": "Italy",
+            "C": "Brazil",
+            "D": "Argentina"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Who is the all-time top scorer for the English Premier League?",
+        "choices": {
+            "A": "Thierry Henry",
+            "B": "Wayne Rooney",
+            "C": "Sergio Aguero",
+            "D": "Alan Shearer"
+        },
+        "correct_answer": "D"
+    }
+]
+
