@@ -4,6 +4,7 @@ import json
 app = Flask(__name__)
 questions_path_AI = './questions/AI.json'
 questions_path_SPORTS = './questions/SPORTS.json'
+questions_path_CODING = './questions/CODING.json'
 
 #the root of the app what the user gets when he accesses our api without specifying a path
 @app.route('/')
@@ -21,6 +22,12 @@ def get_AI_questions():
 @app.route('/SPORTS')
 def get_SPORTS_questions():
         with open(questions_path_SPORTS, 'r') as file:
+                data = json.load(file)
+        return data
+
+@app.route('/CODING')
+def get_CODING_questions():
+        with open(questions_path_CODING, 'r') as file:
                 data = json.load(file)
         return data
 
