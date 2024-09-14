@@ -1,0 +1,103 @@
+[
+    {
+        "question": "Which programming language is primarily used for web development alongside HTML and CSS?",
+        "choices": {
+            "A": "JavaScript",
+            "B": "Python",
+            "C": "C++",
+            "D": "Ruby"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "What is the main programming language used to build iOS applications?",
+        "choices": {
+            "A": "Swift",
+            "B": "Java",
+            "C": "Kotlin",
+            "D": "C#"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Which language is often used for data analysis and machine learning?",
+        "choices": {
+            "A": "PHP",
+            "B": "Java",
+            "C": "Python",
+            "D": "Go"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "What does HTML stand for?",
+        "choices": {
+            "A": "Hyperlink Markup Language",
+            "B": "Hyper Text Markup Language",
+            "C": "Hyper Transfer Markup Language",
+            "D": "High Text Markup Language"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which language is mainly used to style websites?",
+        "choices": {
+            "A": "Python",
+            "B": "CSS",
+            "C": "JavaScript",
+            "D": "Ruby"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which language is commonly used for server-side development?",
+        "choices": {
+            "A": "JavaScript",
+            "B": "PHP",
+            "C": "HTML",
+            "D": "CSS"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which of the following is a widely used object-oriented programming language?",
+        "choices": {
+            "A": "HTML",
+            "B": "SQL",
+            "C": "Python",
+            "D": "Bash"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "What symbol is used to denote comments in Python?",
+        "choices": {
+            "A": "//",
+            "B": "#",
+            "C": "/* */",
+            "D": "<!-- -->"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which language is commonly used for Android app development?",
+        "choices": {
+            "A": "Swift",
+            "B": "Java",
+            "C": "Ruby",
+            "D": "C++"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "In which programming language are 'for' and 'while' commonly used for loops?",
+        "choices": {
+            "A": "JavaScript",
+            "B": "Python",
+            "C": "C++",
+            "D": "All of the above"
+        },
+        "correct_answer": "D"
+    }
+]
+
