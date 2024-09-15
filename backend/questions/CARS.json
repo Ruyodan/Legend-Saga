@@ -1,0 +1,103 @@
+[
+    {
+        "question": "What is the best-selling car of all time?",
+        "choices": {
+            "A": "Toyota Corolla",
+            "B": "Ford F-Series",
+            "C": "Volkswagen Beetle",
+            "D": "Honda Civic"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Which car manufacturer is known for producing the Model S electric sedan?",
+        "choices": {
+            "A": "Tesla",
+            "B": "BMW",
+            "C": "Nissan",
+            "D": "Ford"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Which Italian car manufacturer uses a bull as its logo?",
+        "choices": {
+            "A": "Ferrari",
+            "B": "Lamborghini",
+            "C": "Maserati",
+            "D": "Alfa Romeo"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "What does 'SUV' stand for in the automotive world?",
+        "choices": {
+            "A": "Sports Utility Vehicle",
+            "B": "Standard Utility Vehicle",
+            "C": "Super Utility Vehicle",
+            "D": "Speed Utility Vehicle"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Which company owns the luxury car brand Rolls-Royce?",
+        "choices": {
+            "A": "Volkswagen",
+            "B": "BMW",
+            "C": "Daimler",
+            "D": "Ford"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which Japanese car brand's name translates to 'three diamonds'?",
+        "choices": {
+            "A": "Toyota",
+            "B": "Mitsubishi",
+            "C": "Honda",
+            "D": "Subaru"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "What was the first mass-produced car?",
+        "choices": {
+            "A": "Ford Model T",
+            "B": "Chevrolet Bel Air",
+            "C": "Volkswagen Beetle",
+            "D": "Cadillac Eldorado"
+        },
+        "correct_answer": "A"
+    },
+    {
+        "question": "Which car brand produces the 3 Series, 5 Series, and 7 Series?",
+        "choices": {
+            "A": "Mercedes-Benz",
+            "B": "Audi",
+            "C": "BMW",
+            "D": "Jaguar"
+        },
+        "correct_answer": "C"
+    },
+    {
+        "question": "Which car company was founded by Henry Ford?",
+        "choices": {
+            "A": "General Motors",
+            "B": "Ford",
+            "C": "Chrysler",
+            "D": "Chevrolet"
+        },
+        "correct_answer": "B"
+    },
+    {
+        "question": "Which car brand is known for the Corvette sports car?",
+        "choices": {
+            "A": "Chevrolet",
+            "B": "Dodge",
+            "C": "Ford",
+            "D": "Pontiac"
+        },
+        "correct_answer": "A"
+    }
+]
+
