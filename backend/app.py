@@ -118,4 +118,4 @@ def printname(name):
 if __name__ == '__main__':
     # Uncomment the next line to insert questions when running the app
         #insert_questions()
-        app.run(debug=True)
+        app.run(host="0.0.0.0", port=5000, debug=True)
