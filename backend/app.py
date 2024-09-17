@@ -1,8 +1,11 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import json
 import pymysql
 
 app = Flask(__name__)
+
+CORS(app)  # This will allow all origins by default
 
 # Paths to the question files
 questions_path_AI = './questions/AI.json'
@@ -61,7 +64,7 @@ def insert_questions():
         connection.close()
 
 
-# Route to interact with database
+# Route to interact with the database by category
 @app.route('/go/<category>')
 def fetch_db_data(category):
     connection = None
@@ -71,17 +74,16 @@ def fetch_db_data(category):
             cursor.execute(f"SELECT * FROM questions WHERE category = '{category}'")
             columns = [col[0] for col in cursor.description]
             result = [dict(zip(columns, row)) for row in cursor.fetchall()]
-        print(columns)
-        return  jsonify(result)
+        return jsonify(result)
     except Exception as e:
         return str(e)
     finally:
         if connection:
             connection.close()
 
-# Home route
+# Home route (fixed duplicate)
 @app.route('/')
-def index():
+def home():
     return 'Hello ALX'
 
 # Route to fetch AI questions
@@ -117,5 +119,5 @@ def printname(name):
 
 if __name__ == '__main__':
     # Uncomment the next line to insert questions when running the app
-        #insert_questions()
-        app.run(host="0.0.0.0", port=5000, debug=True)
+    # insert_questions()
+    app.run(host="0.0.0.0", port=5000, debug=True)
