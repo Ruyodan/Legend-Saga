@@ -90,7 +90,7 @@ const Quiz = ({ category }) => {
           </div>
           <button
             onClick={handleNextQuestion}
-            className="mt-6 bg-blue-500 text-white px-4 py-2 rounded"
+            className="right-3 mt-6 bg-blue-500 text-white px-4 py-2 rounded"
             disabled={!selectedAnswer}
           >
             Next
