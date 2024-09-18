@@ -5,7 +5,7 @@ import Quiz from "../app/components/Quiz";
 const categories = ["Ai", "Cars", "Coding", "Sports"];
 
 export default function Home() {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
