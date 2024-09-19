@@ -13,9 +13,7 @@ const Quiz = ({ category }) => {
   useEffect(() => {
     async function fetchQuizData() {
       try {
-        const response = await axios.get(
-          `http://ad8b4b2c04ec.115532cb.alx-cod.online:5000/go/${category}`
-        );
+        const response = await axios.get(`/api/proxy?category=${category}`);
         setQuestions(response.data);
       } catch (error) {
         console.error("Error fetching quiz data", error);
