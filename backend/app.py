@@ -17,9 +17,9 @@ questions_path_CARS = './questions/CARS.json'
 def get_db_connection():
     connection = pymysql.connect(
         host='sql7.freesqldatabase.com',
-        user='sql7731841',
-        password='sTj5zMcLDu',
-        database='sql7731841',
+        user='sql7733554',
+        password='YwKajlds4H',
+        database='sql7733554',
         port=3306
     )
     return connection
@@ -81,7 +81,7 @@ def fetch_db_data(category):
         if connection:
             connection.close()
 
-# Home route (fixed duplicate)
+# Home route 
 @app.route('/')
 def home():
     return 'Hello ALX'
