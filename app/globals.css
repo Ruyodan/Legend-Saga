@@ -1,13 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* Enhanced color scheme and animations */
 :root {
   --primary-color: #4a00e0;
   --secondary-color: #8e2de2;
   --text-color: #ffffff;
   --hover-color: #2ecc71;
-  --background-color: #141e30;
+  --selected-color: #f39c12; /* New color for selected answer */
+  --background-color: #1e293b; /* Darker background color */
 }
 
 body {
@@ -81,6 +83,18 @@ button:hover::before {
   transform: scale(1);
 }
 
+/* New styles for selected buttons */
+button.selected {
+  background-color: var(--selected-color);
+  color: var(--text-color);
+  box-shadow: 0 10px 25px rgba(255, 165, 0, 0.5);
+  transform: scale(1.05);
+}
+
+button.selected::before {
+  background: none;
+}
+
 @keyframes glow {
   from {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px var(--primary-color), 0 0 20px var(--primary-color);
@@ -99,3 +113,4 @@ button:hover::before {
     font-size: 3rem;
   }
 }
+
