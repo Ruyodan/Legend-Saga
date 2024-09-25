@@ -2,6 +2,16 @@
 
 **Transforming Learning Through Fun and Real-Time Engagement**
 
+## Getting Started with Legend Saga
+
+### Install depedencies
+
+`npm install`
+
+### Run the dev server
+
+`npm run dev`
+
 ## Introduction
 
 Legend Saga is an innovative and interactive quiz platform designed to enhance learning through engaging and competitive gameplay. Whether you're an educator aiming to make learning more exciting or a student wanting to test your knowledge, Legend Saga combines fun with real-time engagement for a better learning experience. With features like live leaderboards, customizable content, and rewards, it makes learning not just informative, but also enjoyable.
