@@ -38,20 +38,25 @@ Back-end: Powered by Python and Flask, handling server-side logic and API commun
 
 ## Challenges Addressed
 
-**Challenge 1**: Real-time synchronization for multiple users.  
-**Solution**: We used WebSockets for real-time interaction and seamless user experience.
 
-**Challenge 2**: Intuitive user interface.  
-**Solution**: We prioritized simple, user-friendly navigation and responsive design for both desktop and mobile users.
+**Challenge 1: Ensuring Consistent Design Across Devices**  
+**Solution**: Implemented a responsive design using CSS frameworks like Tailwind to ensure the app looks good on all screen sizes.
 
-**Challenge 3**: Managing large datasets.  
-**Solution**: Optimized database queries to ensure fast and efficient data retrieval.
+---
+
+**Challenge 2: Keeping Users Engaged**  
+**Solution**: Introduced interactive elements like animations and visual feedback when users answer questions, providing a more engaging experience.
+
+---
+
+**Challenge 3: Simplifying Data Management**  
+**Solution**: Used basic CRUD operations to manage the data efficiently and maintain the smooth functioning of the quiz platform.
+
 
 ## Python Module Dependencies
 
 To run the Legend Saga app, you need the following Python modules and dependencies:
 
 - **Flask**: A micro web framework for Python.
-- **Flask-SocketIO**: For handling real-time communication.
 - **MySQL**: Database for storing quiz data.
 - **Tailiwind CSS**: For front-end styling.
