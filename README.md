@@ -27,7 +27,7 @@ Legend Saga is an innovative and interactive quiz platform designed to enhance l
 
 Front-end: Built with Next JS to create a dynamic, responsive user interface.  
 Back-end: Powered by Python and Flask, handling server-side logic and API communication.
-Database: MySQL manages real-time data, handling quizzes and scores.
+\nDatabase: MySQL manages real-time data, handling quizzes and scores.
 
 ## Learning Objectives
 
